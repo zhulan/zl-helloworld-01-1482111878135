@@ -1,0 +1,10 @@
+applications:
+- path: output/webApp.war
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: zl-helloworld-01
+  host: zl-helloworld-01
+  disk_quota: 1024M
+  services:
+  - zl-helloworld-01-personality_insights
